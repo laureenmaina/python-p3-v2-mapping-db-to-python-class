@@ -4,6 +4,7 @@ from department import Department
 import ipdb
 
 
+
 def reset_database():
     Department.drop_table()
     Department.create_table()
